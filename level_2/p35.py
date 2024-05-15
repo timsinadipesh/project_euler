@@ -1,18 +1,6 @@
 # find the number of circular primes below one million
 
-def is_prime(n):
-    if n < 2:
-        return False
-    for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-            return False
-    return True
-
-# test: is_prime(n)
-# print(is_prime(1))
-# print(is_prime(2))
-# print(is_prime(3))
-# print(is_prime(23))
+from helpers import is_prime
 
 def get_rotations(num):
     digits = list(str(num))
