@@ -11,7 +11,7 @@ def is_prime(n):
     return True
 
 # test: is_prime(n)
-print(is_prime(1))
-print(is_prime(2))
-print(is_prime(3))
-print(is_prime(23))
+# print(1, is_prime(1))
+# print(2, is_prime(2))
+# print(3, is_prime(3))
+# print(23, is_prime(23))
